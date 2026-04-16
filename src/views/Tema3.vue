@@ -671,17 +671,21 @@
     separador
     #t_3_6.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.6 Organismos de control y vigilancia
-
-    .row.justify-content-center.align-items-center.mb-5.tarjeta-bg03
-      .col-lg-3.col-8.mb-4.mb-lg-0.p-3
-        figure
-          img(src='@/assets/curso/temas/tema3/img52.png', width='180', alt='Texto que describa la imagen')
-      .col-lg-9
+    .bloque-texto-gg.color-primario.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-gg__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img52.png')})`}"
+      )
+      .bloque-texto-gg__texto.p-4
         p.mb-0 El Estado colombiano ejerce sobre las organizaciones de economía solidaria un sistema de inspección, vigilancia y control a través de entidades especializadas cuyo propósito es garantizar el cumplimiento de la normativa, la transparencia en la gestión de los recursos y la protección de los asociados y depositantes. Este sistema fue estructurado principalmente por la Ley 454 de 1998, que en su Título III define las entidades estatales de promoción, fomento, desarrollo y supervisión del sector.
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-11
+        p.mb-0 El cumplimiento del marco normativo del sector solidario no opera de manera espontánea: el Estado colombiano ha dispuesto un sistema institucional conformado por organismos con funciones específicas y complementarias que van desde la formulación de políticas hasta la supervisión directa de las entidades. Conocer cada uno de estos organismos, su naturaleza y su función concreta permite identificar ante cuál de ellos debe responder cada tipo de organización solidaria, según su actividad y su forma jurídica:
+      .col-lg-1.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/intro/img3.svg', alt='Texto que describa la imagen')
 
-    p.mb-5 El cumplimiento del marco normativo del sector solidario no opera de manera espontánea: el Estado colombiano ha dispuesto un sistema institucional conformado por organismos con funciones específicas y complementarias que van desde la formulación de políticas hasta la supervisión directa de las entidades. Conocer cada uno de estos organismos, su naturaleza y su función concreta permite identificar ante cuál de ellos debe responder cada tipo de organización solidaria, según su actividad y su forma jurídica:
-
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-6
         LineaTiempoD.color-secundario
           p(numero="1" titulo="CONES — Consejo Nacional de la Economía Solidaria") Formula y coordina, a nivel nacional, las políticas, estrategias, planes, programas y proyectos pertinentes al sistema de la economía solidaria en Colombia.
@@ -693,7 +697,7 @@
         figure
           img(src="@/assets/curso/temas/tema3/img53.png", alt="Imagen decorativa") 
 
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start.mb-4
       .col-lg-9
         p.mb-4 Los organismos de control y vigilancia presentados constituyen el sistema institucional que garantiza que las organizaciones de economía solidaria operen dentro del marco legal, con transparencia, responsabilidad y coherencia con los principios que las fundamentan. Sin este sistema, la seguridad jurídica de los asociados, la confianza en el sector y la sostenibilidad de las entidades solidarias quedarían sin respaldo institucional. 
       
@@ -702,7 +706,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img54.svg', alt='Ilustración de equipo de trabajo')
           .col-lg-8.col-md-7
-            .tarjeta-bg03
+            .tarjeta-bg01.p-4
               p.mb-3 Conocer qué organismo supervisa cada tipo de entidad, cuáles son sus funciones y ante cuál se deben realizar los trámites de formalización es, por tanto, un conocimiento práctico indispensable para quien desee participar activamente en la gestión de una organización solidaria.
             
       
@@ -710,7 +714,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img55.png', alt='Ejecutivos trabajando en laptop')      
 
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start
       .col-lg-10
         p.mb-0 La comprensión del sector solidario no se completa únicamente con el conocimiento de sus organismos de control, es igualmente importante entender cómo las organizaciones solidarias generan valor más allá de sus fronteras internas, articulándose con otras entidades y actores del territorio para producir, transformar y comercializar bienes y servicios bajo principios de cooperación y comercio justo. Esta dimensión productiva y territorial del modelo solidario, que convierte los principios en resultados económicos concretos para las comunidades, es precisamente lo que se aborda a continuación con las cadenas productivas en la economía solidaria.
 
@@ -718,22 +722,25 @@
     #t_3_7.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.7 Cadenas productivas en la economía solidaria
 
-    .row.justify-content-center.align-items-center.mb-5.tarjeta-bg03
-      .col-lg-5
-        figure
-          img(src='@/assets/curso/temas/tema3/img56.png', alt='Ejecutivos trabajando en laptop')      
-      .col-lg-7
-        .row.mb-3
-          .col-lg-1.mb-3
-            figure
-              img(src='@/assets/curso/temas/tema3/img57.svg', width='180', alt='Texto que describa la imagen')
-          .col-lg-12
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        p 
+        .bloque-texto-gg.bloque-texto-gg-imagen.color-primario
+          .bloque-texto-gg__img(
+            :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img56.png')})`}"
+          )
+          .bloque-texto-gg__texto.p-4
+            .row.mb-3
+              .col-lg-auto.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/temas/tema3/img57.svg', width='180', alt='Texto que describa la imagen')
             p.mb-0 La economía solidaria no se limita a la constitución y gestión interna de las organizaciones, también transforma la manera en que estas participan en la economía real, producen bienes, prestan servicios y llevan sus productos hasta el consumidor final. Una de las expresiones más concretas de esta transformación es la cadena productiva solidaria, un modelo en el que la cooperación y la distribución equitativa de los beneficios reemplazan la lógica de la competencia individual. Comprender cómo funciona esta cadena permite reconocer el alcance real del sector solidario más allá de su estructura jurídica y organizacional.
-    p.mb-5 Una cadena productiva comprende todas las etapas que median entre la producción de un bien o servicio y su consumo final:
+
+    p.mb-4 Una cadena productiva comprende todas las etapas que median entre la producción de un bien o servicio y su consumo final:
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-3
-        .tarjeta-bg03.p-4
+        .tarjeta-bg02.p-4
           .row
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -742,7 +749,7 @@
               h5 #[b Elaboración]
               
       .col-lg-3
-        .tarjeta-bg03.p-4
+        .tarjeta-bg02.p-4
           .row
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -751,7 +758,7 @@
               h5 #[b Transformación]
               
       .col-lg-3
-        .tarjeta-bg03.p-4
+        .tarjeta-bg02.p-4
           .row
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -760,7 +767,7 @@
               h5 #[b Distribución]
               
       .col-lg-3
-        .tarjeta-bg03.p-4
+        .tarjeta-bg02.p-4
           .row
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -768,7 +775,7 @@
             .col-lg-12
               h5 #[b Comercialización]
     p.mb-5 En el contexto de la economía solidaria, las relaciones entre los actores de la cadena no se rigen únicamente por la lógica del mercado, sino también por principios de cooperación, comercio justo y distribución equitativa de los beneficios generados entre quienes participan del proceso productivo.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta-bg05.p-4(data-aos="fade-up")
           .row.justify-content-center.align-items-center
@@ -778,16 +785,16 @@
             .col-lg-10
               p.mb-0 Las cadenas productivas solidarias demuestran que los principios de cooperación, equidad y autogestión no son valores abstractos, se traducen en decisiones económicas concretas que generan riqueza, dignifican el trabajo y fortalecen el tejido social de las comunidades desde sus propios territorios.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        p.mb-5 En Colombia, las cadenas productivas solidarias integran a pequeños productores, transformadores y comercializadores bajo esquemas asociativos que reducen la intermediación y mejoran los márgenes de ganancia. Los circuitos cortos de comercialización son la expresión más concreta de este modelo, permiten el acercamiento directo entre productor y consumidor, potenciando las economías familiares y comunitarias.
-        .tarjeta.tarjeta-bg03.p-4(data-aos="fade-up")
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-9
+        p En Colombia, las cadenas productivas solidarias integran a pequeños productores, transformadores y comercializadores bajo esquemas asociativos que reducen la intermediación y mejoran los márgenes de ganancia. Los circuitos cortos de comercialización son la expresión más concreta de este modelo, permiten el acercamiento directo entre productor y consumidor, potenciando las economías familiares y comunitarias.
+        .tarjeta.tarjeta-bg02.p-3
           p.mb-0 La economía solidaria transforma la cadena productiva convencional desde adentro, en lugar de que cada eslabón opere de manera independiente buscando su propio beneficio, los actores se articulan bajo principios de cooperación y distribución equitativa. A continuación, se presentan los cuatro eslabones que conforman una cadena productiva solidaria, desde la producción hasta el consumidor final:
-      .col-lg-4
+      .col-lg-3
         figure
           img(src='@/assets/curso/temas/tema3/img63.png', width='180', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-7.col-lg-3
         figure
           img(src="@/assets/curso/temas/tema3/img64.png", alt="Imagen decorativa") 
@@ -798,9 +805,9 @@
           p(numero="3" titulo="Distribución solidaria") Se eliminan o reducen los intermediarios mediante circuitos cortos de comercialización, conectando directamente a los productores con los consumidores y mejorando los márgenes de ganancia para las comunidades productoras.
           p(numero="4" titulo="Comercialización y consumo justo") Protege la confianza de los ahorradores y depositantes de las cooperativas inscritas. Aplica medidas de apoyo únicamente a entidades cuya situación financiera sea viable, a juicio de su Junta Directiva.
           p(numero="5" titulo="Supersolidaria — Superintendencia de la Economía Solidaria") Los productos llegan al consumidor bajo estándares de comercio justo, con precios que reconocen el valor real del trabajo y garantizan condiciones dignas para los productores en cada eslabón de la cadena.
-    p.mb-5 Los cuatro eslabones presentados demuestran que en la economía solidaria la cadena productiva no es solo un proceso económico, es un mecanismo de cohesión social que distribuye los beneficios entre quienes participan del trabajo colectivo en cada etapa. Comprender esta estructura permite reconocer cómo las organizaciones solidarias transforman su entorno productivo desde adentro. A continuación, se presentan experiencias concretas que ilustran cómo este modelo opera en distintos territorios de Colombia:
-    .tarjeta--fondo2.px-5
-      .row.justify-content-center.align-items-center.mb-5
+    p.mb-4 Los cuatro eslabones presentados demuestran que en la economía solidaria la cadena productiva no es solo un proceso económico, es un mecanismo de cohesión social que distribuye los beneficios entre quienes participan del trabajo colectivo en cada etapa. Comprender esta estructura permite reconocer cómo las organizaciones solidarias transforman su entorno productivo desde adentro. A continuación, se presentan experiencias concretas que ilustran cómo este modelo opera en distintos territorios de Colombia:
+    .tarjeta--fondo2.p-3.px-5.mb-4
+      .row.justify-content-center.align-items-center
         .col-lg-4.d-none.d-lg-block
           figure
             img(src="@/assets/curso/temas/tema3/img65.png" alt="Persona con laptop")
@@ -836,7 +843,7 @@
                   img(src='@/assets/curso/temas/tema3/img70.svg' alt='Icono')
               h4.text-center Redes de artesanos:
               p.text-center Agrupaciones que compran materias primas de manera conjunta, producen bajo modelos de comercio justo y comercializan sin intermediarios, fortaleciendo la identidad cultural y la economía local.
-    p.mb-5 Las cadenas productivas solidarias evidencian que los principios de cooperación, equidad y autogestión no son valores abstractos sino mecanismos reales de transformación económica y social que operan desde las comunidades. Con este numeral concluye el recorrido por las organizaciones de economía solidaria, un recorrido que entrega las bases conceptuales, históricas, normativas e institucionales necesarias para comprender el sector solidario colombiano en toda su dimensión y diversidad.
+    p Las cadenas productivas solidarias evidencian que los principios de cooperación, equidad y autogestión no son valores abstractos sino mecanismos reales de transformación económica y social que operan desde las comunidades. Con este numeral concluye el recorrido por las organizaciones de economía solidaria, un recorrido que entrega las bases conceptuales, históricas, normativas e institucionales necesarias para comprender el sector solidario colombiano en toda su dimensión y diversidad.
 
 
 </template>
