@@ -1,20 +1,20 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-4
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Las organizaciones de economía solidaria
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La Organización Internacional del Trabajo (OIT, 2010) reconoce la economía solidaria como un modelo con rasgos distintivos que lo diferencian del capitalismo convencional: la gobernanza democrática, la gestión autónoma y la primacía del interés colectivo sobre el capital. Estas características han posicionado a las organizaciones solidarias como una alternativa real para el desarrollo económico incluyente, con respaldo de gobiernos, actores sociales y sociedad civil en todo el mundo.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
         .p-4(data-aos="fade-up")
           .row.justify-content-center.align-items-center
@@ -28,7 +28,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img3.png', width='180', alt='Texto que describa la imagen')
 
-    .tarjeta--fondo2.px-5
+    .tarjeta--fondo2.p-2.px-5.mb-4
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-4.d-none.d-lg-block
           figure
@@ -72,7 +72,7 @@
               h4.text-center Gestión democrática y participativa:
               p.text-center Los miembros participan en la toma de decisiones de manera igualitaria, aplicando el principio de un asociado, un voto.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-auto
         figure
           img(src='@/assets/curso/temas/intro/img3.svg', width='180', alt='Texto que describa la imagen')
@@ -86,7 +86,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
         p.mb-4 La economía solidaria no surgió como una teoría académica sino como una respuesta práctica de los trabajadores ante las condiciones de explotación generadas por la Revolución Industrial en el siglo XIX. Ante el desempleo y la degradación salarial, grupos de obreros comenzaron a organizarse, a reunir sus recursos y a trabajar de manera conjunta para acceder a bienes básicos a precios justos. De este proceso emergieron las primeras cooperativas y sociedades mutualistas de la era moderna.
-        .tarjeta-bg03.p-4(data-aos="fade-up")
+        .tarjeta-bg02.p-4(data-aos="fade-up")
           .row.justify-content-center.align-items-center
             .col-lg-auto.d-none.d-lg-block
               figure
@@ -105,52 +105,52 @@
           img(src='@/assets/curso/temas/tema3/img13.png', width='180', alt='Texto que describa la imagen')
 
     LineaTiempoE.color-primario.mb-5
-      .row(titulo="1844. " subtitulo="Title, Company")
+      .row(titulo="1844" subtitulo="")
         .col-lg-2
           figure
             img(src='@/assets/curso/temas/tema3/img14.svg', alt='Texto que describa la imagen')
         .col-lg-8.mb-4.mb-lg-0
-          h2 Pioneros de Rochdale (Reino Unido)
+          h5 Pioneros de Rochdale (Reino Unido)
           p 28 artesanos fundan la primera cooperativa moderna y establecen los principios de trato honesto, participación democrática y distribución de beneficios según la contribución de cada miembro.
 
-      .row(titulo="1931." subtitulo="Title, Company")
+      .row(titulo="1931" subtitulo="")
         .col-lg-2
           figure
             img(src='@/assets/curso/temas/tema3/img15.svg', alt='Texto que describa la imagen')
         .col-lg-8.mb-4.mb-lg-0
-          h2 Primera ley cooperativa en Colombia
+          h5 Primera ley cooperativa en Colombia
           p La Ley 134 da inicio a la formalización del modelo solidario en Colombia, estableciendo el primer marco legal para las organizaciones cooperativas en el país.
       
-      .row(titulo="1986. " subtitulo="Title, Company")
+      .row(titulo="1986" subtitulo="")
         .col-lg-2
           figure
             img(src='@/assets/curso/temas/tema3/img16.svg', alt='Texto que describa la imagen')
         .col-lg-8.mb-4.mb-lg-0
-          h2 Adopción del concepto de economía solidaria
+          h5 Adopción del concepto de economía solidaria
           p El Decreto 2536 crea el Consejo Nacional de Economía Solidaria (CONES) y reconoce el sector como componente estratégico del entorno económico nacional
       
-      .row(titulo="1988. " subtitulo="Title, Company")
+      .row(titulo="1988" subtitulo="")
         .col-lg-2
           figure
             img(src='@/assets/curso/temas/tema3/img17.svg', alt='Texto que describa la imagen')
         .col-lg-8.mb-4.mb-lg-0
-          h2 Ley 79: organización del sector cooperativo
+          h5 Ley 79: organización del sector cooperativo
           p Organiza las formas solidarias del cooperativismo, las asociaciones mutuales y los fondos de empleados, dotando al sector de un marco propicio para su desarroll
       
-      .row(titulo="1998. " subtitulo="Title, Company")
+      .row(titulo="1998" subtitulo="")
         .col-lg-2
           figure
             img(src='@/assets/curso/temas/tema3/img18.svg', alt='Texto que describa la imagen')
         .col-lg-8.mb-4.mb-lg-0
-          h2 Ley 454: marco conceptual definitivo
+          h5 Ley 454: marco conceptual definitivo
           p Determina el marco conceptual de la economía solidaria, crea la Superintendencia de la Economía Solidaria (Supersolidaria) y el FOGACOOP.
       
-      .row(titulo="Siglo XXI. " subtitulo="Title, Company")
+      .row(titulo="Siglo XXI" subtitulo="")
         .col-lg-2
           figure
             img(src='@/assets/curso/temas/tema3/img19.svg', alt='Texto que describa la imagen')
         .col-lg-8.mb-4.mb-lg-0
-          h2 Consolidación y crecimiento
+          h5 Consolidación y crecimiento
           p El cooperativismo se consolida como la figura más destacada del sector solidario en Colombia, con crecimiento constante y reconocimiento internacional por la OIT (2010).
 
     .row.justify-content-center.align-items-center.mb-5
@@ -159,7 +159,7 @@
           img(src='@/assets/curso/temas/tema3/img20.png', width='180', alt='Texto que describa la imagen')
       .col-lg-9
         p.mb-4 La historia de la economía solidaria demuestra que este modelo es el resultado de más de un siglo de aprendizajes colectivos, ajustes normativos y resistencia ante las inequidades del mercado. Cada hito de esta línea de tiempo representa una conquista que amplió las posibilidades del sector y fortaleció su legitimidad. Reconocer este recorrido permite valorar el alcance del modelo y entender por qué su definición, sus tipos de organización y su marco normativo son el producto de una construcción histórica y social que sigue evolucionando.
-        .tarjeta-bg01.p-4(data-aos="fade-up")
+        .tarjeta.tarjeta-bg01.p-4(data-aos="fade-up")
           .row.justify-content-center.align-items-center
             .col-lg-auto.d-none.d-lg-block
               figure
@@ -176,16 +176,16 @@
                 img(src='@/assets/curso/temas/tema3/img22.svg', alt='Infografía de matriz RACI')
                 
 
-            .tarjeta.color-acento-botones.p-3(x="33%" y="69%" numero="+")
+            .tarjeta.tarjeta-bg01.p-3(x="33%" y="69%" numero="+")
               p Apoyo y colaboración recíprocos que permiten suplir necesidades comunes de manera colectiva.
 
-            .tarjeta.color-acento-botones.p-3(x="43%" y="50%" numero="+")
+            .tarjeta.tarjeta-bg01.p-3(x="43%" y="50%" numero="+")
               p Participación igualitaria de todos los asociados en el ejercicio de derechos y decisiones organizacionales.
             
-            .tarjeta.color-acento-botones.p-3(x="58%" y="50%" numero="+")
+            .tarjeta.tarjeta-bg01.p-3(x="58%" y="50%" numero="+")
               p Creación de condiciones justas que garantizan igualdad de oportunidades para los grupos históricamente excluidos.
 
-            .tarjeta.color-acento-botones.p-3(x="66%" y="70%" numero="+")
+            .tarjeta.tarjeta-bg01.p-3(x="66%" y="70%" numero="+")
               p Conciencia colectiva que impulsa la colaboración y el apoyo mutuo para el desarrollo comunitario integral.
         .d-block.d-lg-none
           figure
@@ -222,10 +222,10 @@
           p(numero="4" titulo="Compromiso con el territorio") Las entidades solidarias contribuyen al desarrollo local, favoreciendo la creación de empleo en comunidades desfavorecidas y reinvirtiendo sus esfuerzos en el territorio donde operan.
           p(numero="5" titulo="Reinversión de beneficios") Los excedentes generados se reinvierten en la entidad o en proyectos de beneficio social, en lugar de distribuirse como utilidades individuales entre sus miembros.
          
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-9
-        .tarjeta.tarjeta-bg01.p-4(data-aos="fade-up")
-          .row.justify-content-center.mb-3
+        .tarjeta.tarjeta-bg01.p-4
+          .row.justify-content-center
               .col-lg-auto
                 figure
                   img(src='@/assets/curso/temas/tema3/img26.svg', width='180', alt='Texto que describa la imagen')
@@ -239,14 +239,14 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.2 Concepto y definición
 
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img28.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La Ley 454 de 1998 define la economía solidaria como un sistema socioeconómico, cultural y ambiental conformado por el conjunto de fuerzas sociales organizadas en formas asociativas identificadas por prácticas autogestionarias solidarias, democráticas y humanistas, sin ánimo de lucro, para el desarrollo integral del ser humano como sujeto, actor y fin de la economía. Esta definición establece que el propósito central no es la generación de utilidades sino el bienestar de las personas que conforman la organización y de su entorno comunitario.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta-bg05.p-4(data-aos="fade-up")
           .row.justify-content-center.align-items-center
@@ -256,16 +256,16 @@
             .col-lg-10
               p.mb-0 La ausencia de ánimo de lucro es la característica que une a todas las organizaciones solidarias y las distingue de las sociedades mercantiles, pero no todas las entidades sin ánimo de lucro son iguales: su naturaleza, su objeto social y su régimen jurídico determinan diferencias esenciales que es necesario reconocer.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-auto
         figure
           img(src='@/assets/curso/temas/intro/img3.svg', width='180', alt='Texto que describa la imagen')
       .col-lg-10
         p.mb-0 En Colombia, las entidades sin ánimo de lucro se organizan en dos grandes grupos que, aunque comparten esta característica, presentan naturalezas, objetos sociales y regímenes jurídicos distintos. Identificar a cuál de estos grupos pertenece una organización es el primer paso para comprender sus obligaciones legales y sus posibilidades de acción.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.h-100
-        .tarjeta--container.row.mb-5
+        .tarjeta--container.row
           .col-md.tarjeta.tarjeta-bg02.p-5.w-100
             .row.justify-content-center.mb-4
               .col-5
@@ -278,7 +278,7 @@
               li #[b • ] Pueden o no actuar en los mercados, con fines más amplios que los socioeconómicos.
               li #[b • ] Se orientan principalmente al desarrollo social, cultural o ambiental de una comunidad.
               
-          .col-md.tarjeta.tarjeta-bg07.p-5.w-100
+          .col-md.tarjeta.tarjeta-bg08.p-5.w-100
             .row.justify-content-center.mb-4
               .col-5
                 figure
@@ -290,7 +290,7 @@
               li #[b • ] Actúan en los mercados con fines socioeconómicos.
               li #[b • ] Se rigen por un marco normativo específico que garantiza su funcionamiento democrático y solidario.
 
-    .row.align-items-center.mb-5
+    .row.align-items-center
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema3/img32.png', width='180', alt='Texto que describa la imagen')
@@ -307,7 +307,7 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.3 Contexto nacional e internacional 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-9
         p.mb-4 La economía solidaria es un fenómeno global que adopta formas distintas según el contexto socioeconómico y cultural de cada región. En Europa se consolida como complemento del sector público en la prestación de servicios sociales; en Norteamérica predomina bajo la figura del tercer sector o sector no lucrativo; y en América Latina se expresa a través de movimientos cooperativistas y de autogestión con raíces históricas en las luchas obreras del siglo XX.
         .tarjeta.tarjeta-bg05.p-4(data-aos="fade-up")
@@ -321,7 +321,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img35.png', width='180', alt='Texto que describa la imagen')    
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-3
         figure
           img(src='@/assets/curso/temas/tema3/img36.png', width='180', alt='Texto que describa la imagen')    
@@ -335,47 +335,47 @@
         .tarjeta.tarjeta-bg03.p-4(data-aos="fade-up")
           p.mb-4 Según Orellana (2007), a nivel mundial la economía solidaria adopta formas asociativas diversas, cuya influencia varía según el contexto económico y social de cada región. Esta diversidad no es una debilidad del modelo, es precisamente su capacidad de adaptarse a realidades distintas lo que explica su vigencia en cinco continentes y su reconocimiento por parte de organismos internacionales como la OIT. Conocer cómo se expresa el modelo en cada región permite comprender que Colombia no construye su sector solidario de manera aislada, sino en diálogo permanente con una tradición global de cooperación y autogestión. A continuación, se presentan las principales regiones donde la economía solidaria ha tenido mayor desarrollo, identificando en cada caso su rasgo más característico y su aporte al movimiento solidario mundial.
 
-    .row.justify-content-center.mb-5
-      .col-7.col-lg-4
-        figure
-          img(src="@/assets/curso/temas/tema3/img37.png", alt="Imagen decorativa") 
+    .row.justify-content-center.mb-4
+      
       .col-lg-6
         LineaTiempoD.color-secundario
           p(numero="1" titulo="Europa. Complemento del sector público") En países como Italia y España, las organizaciones solidarias complementan las labores del Estado en la prestación de servicios sociales con alta demanda, actuando como operadores de bienestar social con gestión democrática y sin ánimo de lucro.
           p(numero="2" titulo="Norteamérica. El tercer sector") En Estados Unidos y Canadá predomina el tercer sector, que abastece necesidades no cubiertas por el sector público ni el privado, con presencia significativa en educación, salud y servicios comunitarios.
           p(numero="3" titulo="América Latina. Cooperativismo y autogestión") La región cuenta con una larga tradición de movimientos cooperativistas y de autogestión obrera. Hitos como la Revolución Mexicana (1930) impulsaron el sindicalismo como base para la creación de empresas administradas por sus propios trabajadores.
           p(numero="4" titulo="Colombia. Crecimiento sostenido") El cooperativismo ha experimentado crecimiento constante desde inicios del siglo XXI. Las cooperativas, precooperativas, fondos de empleados y asociaciones mutuales contribuyen activamente a la disminución del desempleo y al desarrollo socioeconómico local
-          
-    p.mb-5 Esta perspectiva global amplía las posibilidades de aprendizaje y de articulación con redes internacionales de comercio justo, cooperación y desarrollo. Con este panorama como referencia, el paso siguiente es identificar con precisión qué tipos de organizaciones conforman el sector solidario en Colombia y cuáles son sus características esenciales para tomar decisiones informadas.     
+      .col-7.col-lg-4
+        figure
+          img(src="@/assets/curso/temas/tema3/img37.png", alt="Imagen decorativa")  
+    p.mb-0 Esta perspectiva global amplía las posibilidades de aprendizaje y de articulación con redes internacionales de comercio justo, cooperación y desarrollo. Con este panorama como referencia, el paso siguiente es identificar con precisión qué tipos de organizaciones conforman el sector solidario en Colombia y cuáles son sus características esenciales para tomar decisiones informadas.     
 
     separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.4 Clasificación
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
-        p.mb-4 La importancia de la Economía Social y Solidaria (ESS) radica en que la filosofía y las características específicas de las entidades que la conforman implican una nueva visión y actitud frente a la actividad económica, la solidaridad y la cooperación se convierten en el mecanismo central para satisfacer necesidades comunes, en lugar de la competencia individual por el beneficio propio. Esta perspectiva exige un conocimiento profundo del sector, pues solo quien comprende su lógica interna puede reconocer las posibilidades reales que ofrece como alternativa de desarrollo económico y social.
-        p.mb-4 En Colombia, el sector de la economía solidaria se organiza en dos grandes grupos reconocidos por la Ley 454 de 1998: 
-        .row.justify-content-center.mb-5
+        p La importancia de la Economía Social y Solidaria (ESS) radica en que la filosofía y las características específicas de las entidades que la conforman implican una nueva visión y actitud frente a la actividad económica, la solidaridad y la cooperación se convierten en el mecanismo central para satisfacer necesidades comunes, en lugar de la competencia individual por el beneficio propio. Esta perspectiva exige un conocimiento profundo del sector, pues solo quien comprende su lógica interna puede reconocer las posibilidades reales que ofrece como alternativa de desarrollo económico y social.
+        p En Colombia, el sector de la economía solidaria se organiza en dos grandes grupos reconocidos por la Ley 454 de 1998: 
+        .row.justify-content-center
           .col-lg-6
             .tarjeta-avatar.h-100
               img(src='@/assets/curso/temas/tema3/img38.svg' alt='AvatarTop')
               .tarjeta.color-primario.w-100
                 .p-4
-                  h2.text-center Organizaciónes de economía solidaria.
+                  h5.text-center Organizaciónes de economía solidaria.
                   
           .col-lg-6
             .tarjeta-avatar.h-100
               img(src='@/assets/curso/temas/tema3/img39.svg' alt='AvatarTop')
               .tarjeta.color-primario.w-100
                 .p-4
-                  h2.text-center Organizaciones solidarias de desarrollo.
+                  h5.text-center Organizaciones solidarias de desarrollo.
                   
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema3/img40.png', width='180', alt='Texto que describa la imagen')    
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
         .row.justify-content-center.mb-3
             .col-lg-auto
               figure
@@ -384,9 +384,9 @@
               p.mb-3 Cada uno de estos grupos está conformado por tipos de entidades con características, objetos sociales y regímenes jurídicos propios, que se presentan a continuación para facilitar su identificación y comprensión.
               p.mb-0 A continuación, se presentan los principales tipos de organizaciones que conforman el sector solidario en Colombia, con sus características esenciales para facilitar su comprensión y comparación.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-5
-        .tarjeta-bg03.p-4.h-100(data-aos="fade-up")
+    .row.justify-content-center.mb-4
+      .col-lg-5
+        .tarjeta.tarjeta-bg02.p-4.h-100(data-aos="fade-up")
           .row.w-100
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -394,8 +394,8 @@
             .col-lg-12
               h5 #[b Cooperativa]
               p.mb-0 Empresa asociativa sin ánimo de lucro en la que los trabajadores o los usuarios son simultáneamente aportantes y gestores. Se crea para producir o distribuir bienes o servicios en beneficio de sus asociados y la comunidad.
-      .col-5
-        .tarjeta-bg03.p-4.h-100(data-aos="fade-up")
+      .col-lg-5
+        .tarjeta.tarjeta-bg02.p-4.h-100(data-aos="fade-up")
           .row.w-100
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -403,8 +403,9 @@
             .col-lg-12
               h5 #[b Precooperativa]
               p.mb-0 Grupo organizado que realiza actividades permitidas a las cooperativas pero que, por carecer de capacidad económica, educativa o técnica, aún no puede constituirse como cooperativa. Requiere el acompañamiento de una entidad promotora.
-      .col-5
-        .tarjeta-bg03.p-4.h-100(data-aos="fade-up")
+    .row.justify-content-center.mb-4
+      .col-lg-5
+        .tarjeta.tarjeta-bg02.p-4.h-100(data-aos="fade-up")
           .row.w-100
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -412,8 +413,8 @@
             .col-lg-12
               h5 #[b Asociación mutual]
               p.mb-0 Persona jurídica de derecho privado sin ánimo de lucro, constituida democráticamente por personas naturales para brindarse ayuda recíproca frente a riesgos eventuales y satisfacer necesidades mediante servicios de seguridad social.
-      .col-5
-        .tarjeta-bg03.p-4.h-100(data-aos="fade-up")
+      .col-lg-5
+        .tarjeta.tarjeta-bg02.p-4.h-100(data-aos="fade-up")
           .row.w-100
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -422,30 +423,31 @@
               h5 #[b Fondo de empleados]
               p.mb-0 Empresa asociativa sin ánimo de lucro constituida por trabajadores dependientes de una misma empresa. Presta servicios de ahorro y crédito exclusivamente a sus asociados, quienes se obligan a realizar un ahorro permanente
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        .row.justify-content-center.mb-3
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-9.order-2.order-lg-1
+        .row.justify-content-center.mb-4
             .col-lg-auto
               figure
                 img(src='@/assets/curso/temas/tema3/img45.svg', width='180', alt='Texto que describa la imagen')
             .col-lg-10
               p.mb-0 La elección del tipo de organización solidaria no es una decisión menor, determina el número de personas necesarias para constituirla, las actividades que podrá desarrollar, las obligaciones de capacitación que deberá cumplir y la entidad ante la cual deberá responder. Por ello, antes de iniciar cualquier proceso de formalización, es indispensable analizar con detalle las características de cada figura y contrastarlas con el propósito, las capacidades y el contexto del grupo que desea asociarse. Esta decisión informada es el primer paso hacia una organización solidaria sólida y sostenible en el tiempo.
-        .tarjeta.tarjeta-bg03.p-4(data-aos="fade-up")
+        .tarjeta.tarjeta-bg01.p-4(data-aos="fade-up")
           p.mb-0 Las cuatro formas asociativas del sector solidario en Colombia comparten la ausencia de ánimo de lucro como rasgo común, pero difieren en su objeto social, el número mínimo de asociados, las actividades que les están permitidas y el marco jurídico que las regula. La siguiente tabla integrada presenta estas características de manera comparativa para facilitar su identificación y distinción.
-      .col-lg-4
+      .col-lg-3.col-8.order-1.order-lg-2
         figure
           img(src='@/assets/curso/temas/tema3/img46.png', width='180', alt='Texto que describa la imagen')
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 4.
           span Caracterización comparativa de las organizaciones de economía solidaria en Colombia
-        
-        .tabla-a.tabla-identica
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .tabla-a.color-acento-contenido 
+          .tabla-a
           table
-            thead.tabla-b__header
-              tr
+            thead
+              tr.tarjeta-bg06
                 th.h4 Característica
                 th.h4 Cooperativa
                 th.h4 Precooperativa
@@ -514,12 +516,12 @@
                 td Supersolidaria.
           figcaption Fuente: con base en Calderón (s.f.), Ley 79 de 1988, Decreto 1480 de 1989 y Decreto 1481 de 1989
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+    .row.justify-content-center.align-items-center
+      .col-lg-3
         figure
           img(src='@/assets/curso/temas/tema3/img47.svg', width='180', alt='Texto que describa la imagen')  
-      .col-lg-8
-        .tarjeta-bg03.p-4(data-aos="fade-up")
+      .col-lg-9
+        .tarjeta-bg02.p-4(data-aos="fade-up")
           .row.mb-3
               .col-lg-1.mb-3
                 figure
@@ -531,14 +533,14 @@
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.5 Marco normativo del sector solidario en Colombia
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img49.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 El marco normativo del sector solidario en Colombia está conformado por normas de tres niveles jerárquicos: la Constitución Política, las leyes del Congreso y los decretos del Gobierno Nacional. La Constitución de 1991 es el fundamento superior de este marco: en sus artículos 38, 58, 64, 95 y 333 garantiza el derecho de libre asociación, protege las formas solidarias de propiedad, promueve el acceso a la tierra de manera asociativa y reconoce la función social de la empresa como una obligación del Estado colombiano frente al sector solidario.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta-bg05.p-4(data-aos="fade-up")
           .row.justify-content-center.align-items-center
@@ -550,16 +552,19 @@
 
     p.mb-5 A partir de este fundamento constitucional, el legislador ha desarrollado leyes y decretos específicos para cada tipo de organización solidaria, conformando un cuerpo normativo articulado que regula su actividad en todos los aspectos. Este marco se organiza en tres niveles jerárquicos como el constitucional, legal y reglamentario, cuyo conocimiento es indispensable para cualquier gestor del sector.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 5.
           span Disposiciones constitucionales del sector solidario
-        
-        .tabla-a.tabla-identica
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
+        .tabla-a.color-acento-contenido 
+          .tabla-a
           table
             thead
-              tr
+              tr.tarjeta-bg06
                 th.text-center.w-20 Artículo (C.P.)
                 th.text-center Contenido y Relación con la Economía Solidaria
             tbody
@@ -585,19 +590,22 @@
                 th.bg-crema-claro.text-center Art. 333
                 td La empresa tiene una **función social** que implica obligaciones. El Estado fortalecerá las organizaciones solidarias y estimulará el desarrollo empresarial.
           figcaption Fuente: Constitución Política de Colombia (1991).
-          .tarjeta-bg06.p-4(data-aos="fade-up")
-            p.mb-4 Nota.Los artículos citados constituyen el fundamento constitucional de rango superior que ninguna norma de inferior jerarquía puede desconocer (art. 4, Constitución Política de Colombia).
+          .tarjeta-bg06.p-3
+            p.mb-0 Nota.Los artículos citados constituyen el fundamento constitucional de rango superior que ninguna norma de inferior jerarquía puede desconocer (art. 4, Constitución Política de Colombia).
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 6.
           span Leyes que estructuran el sector solidario en Colombia
-        
-        .tabla-a.tabla-identica
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
+        .tabla-a.color-acento-contenido 
+          .tabla-a
           table
             thead
-              tr
+              tr.tarjeta-bg06
                 th.text-center.w-25 Norma
                 th.text-center Contenido y alcance
             tbody
@@ -608,19 +616,22 @@
                 th.bg-crema-claro.text-center Ley 454 de 1998
                 td Determina el marco conceptual de la economía solidaria. Transformó **DANCOOP** en **DANSOCIAL**, creó la Superintendencia de la Economía Solidaria (**Supersolidaria**), el **FOGACOOP** y transformó el **CONES**.
           figcaption Fuente: Congreso de la República de Colombia.
-          .tarjeta-bg06.p-4(data-aos="fade-up")
-            p.mb-4 Nota. La Ley 454 de 1998 es la norma rectora del sector solidario en Colombia. Para consultar su texto completo, véase: www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3433 
+          .tarjeta-bg06.p-3
+            p.mb-0 Nota. La Ley 454 de 1998 es la norma rectora del sector solidario en Colombia. Para consultar su texto completo, véase: www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3433 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 7.
           span Decretos reglamentarios por tipo de organización solidaria
-        
-        .tabla-a.tabla-identica
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
+        .tabla-a.color-acento-contenido 
+          .tabla-a
           table
             thead
-              tr
+              tr.tarjeta-bg06
                 th.text-center.w-25 Norma
                 th.text-center Organización que regula y alcance
             tbody
@@ -646,10 +657,10 @@
                 th.bg-crema-claro.text-center Decreto 4588 de 2006
                 td **Cooperativas de Trabajo Asociado.** Regula su organización, funcionamiento y las garantías laborales de los asociados.
           figcaption Fuente: Gobierno Nacional de Colombia. Gestor Normativo. Función Pública.
-          .tarjeta-bg06.p-4(data-aos="fade-up")
-            p.mb-4 Nota. El Normograma completo del sector solidario, con la totalidad de decretos y acuerdos vigentes, se encuentra disponible en: www.supersolidaria.gov.co/es/content/normograma
+          .tarjeta-bg06.p-3
+            p.mb-0 Nota. El Normograma completo del sector solidario, con la totalidad de decretos y acuerdos vigentes, se encuentra disponible en: www.supersolidaria.gov.co/es/content/normograma
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-9
         p.mb-4 El conjunto normativo presentado en las tres tablas anteriores evidencia que la economía solidaria en Colombia cuenta con un respaldo jurídico sólido y articulado que va desde la Constitución Política hasta los decretos reglamentarios específicos para cada tipo de organización. Este marco no es estático, ha evolucionado durante casi un siglo respondiendo a las transformaciones del sector y a la necesidad de garantizar la seguridad jurídica de las entidades y sus asociados. Conocerlo con precisión es condición indispensable para constituir, gestionar y formalizar cualquier organización solidaria dentro del ordenamiento jurídico colombiano. Ahora bien, el cumplimiento de estas normas no opera de manera espontánea, el Estado colombiano ha dispuesto un conjunto de organismos especializados encargados de promover, vigilar y controlar el sector, los cuales se presentan en el numeral siguiente.
       .col-lg-3.col-8.mb-4.mb-lg-0

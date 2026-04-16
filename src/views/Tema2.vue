@@ -417,7 +417,7 @@
                   i.lista-ul__vineta
                   | #[b Control]: permite hacer seguimiento al avance y gestionar riesgos. 
               p.mb-0 En consecuencia, el proyecto concreta la estrategia en resultados tangibles, asegurando la implementación efectiva de las acciones planificadas.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-9.order-2.order-lg-1
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-auto.d-none.d-lg-block
@@ -425,7 +425,7 @@
               img(src='@/assets/curso/temas/intro/img3.svg', width='180', alt='Texto que describa la imagen')
           .col-lg-10
             p.mb-0 Los planes, programas y proyectos constituyen instrumentos fundamentales para la implementación de la planeación estratégica, ya que permiten organizar, coordinar y ejecutar las acciones necesarias para el logro de los objetivos organizacionales. Su articulación jerárquica facilita la transición desde el direccionamiento estratégico hasta la ejecución operativa, garantizando coherencia en la gestión y el uso eficiente de los recursos.
-        .tarjeta-bg01.p-3(data-aos="fade-up")
+        .tarjeta-bg01.p-3
           .row.justify-content-center.align-items-center
             .col-lg-auto.d-none.d-lg-block
               figure
