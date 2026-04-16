@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Generalidades de las organizaciones de economía solidaria'
