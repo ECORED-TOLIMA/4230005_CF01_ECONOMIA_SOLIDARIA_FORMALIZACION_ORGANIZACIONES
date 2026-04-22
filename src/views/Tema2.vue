@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Planeación estratégica
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-4.mb-lg-0
@@ -22,7 +22,8 @@
               p.mb-0 En este proceso se determinan objetivos y metas, se establecen acciones concretas para alcanzarlos y se evalúan los resultados en función de lo planificado. La planeación estratégica permite organizar los esfuerzos en diferentes niveles, facilitando que los objetivos sean ejecutados, medidos y ajustados de manera continua.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
-        p La administración es la ciencia que gestiona un conjunto de bienes materiales, recursos humanos, tecnológicos y financieros con el fin de generar un beneficio a sus inversionistas, a partir de allí se identifica con claridad que la administración nació como herramienta para garantizar la generación de resultados beneficiosos en una organización, mediante la puesta en marcha de una serie de recursos que al ser dispuestos para el logro de los objetivos, deben ser distribuidos en una estructura que facilite la ejecución de actividades mediante la sectorización de las funciones administrativas y el desempeño de cada rol vinculado a la organización.
+        p Adicionalmente, la planeación estratégica fortalece la capacidad de la organización para anticiparse a los cambios del entorno y responder de manera oportuna a las dinámicas del mercado. Esto contribuye a mejorar la competitividad, optimizar el uso de los recursos y orientar la gestión hacia resultados sostenibles. De igual forma, este proceso promueve la articulación entre las diferentes áreas de la organización, garantizando coherencia entre lo que se planifica y lo que se ejecuta. Así, se favorece el trabajo colaborativo, el seguimiento permanente y la mejora continua de los procesos organizacionales.
+
         .bloque-texto-gg.color-primario
           .bloque-texto-gg__img(
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img3.png')})`}"
@@ -216,9 +217,9 @@
                 td Disponibilidad de materia prima local.
                 td Limitaciones en infraestructura.
               tr
-                td.text-bold Factores Externos
-                td.text-bold Oportunidades (O)
-                td.text-bold Amenazas (A)
+                td.text-bold.tarjeta-bg04 Factores Externos
+                td.text-bold.tarjeta-bg04 Oportunidades (O)
+                td.text-bold.tarjeta-bg04 Amenazas (A)
               tr
                 td Mercado
                 td Crecimiento de la demanda local.
@@ -292,7 +293,7 @@
         .tarjeta.p-4(style="background-color:#FAF2DF; border-radius: 0 0 20px 20px;")
           .tarjeta.bg-white.p-4.custom-audio-card
             TarjetaAudio.color-acento-botones(
-              texto="Pódcast"
+              texto="La planeación estratégica y el análisis FODA en las organizaciones de economía solidaria"
               :audio="require('@/assets/curso/temas/audio/5.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
@@ -319,13 +320,13 @@
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Objetivos estratégicos")
             .col
-              p.mb-0 corresponden a los logros que la organización proyecta alcanzar en el largo plazo, orientados al cumplimiento de su visión, misión y valores. Definen el rumbo general, establecen prioridades y guían la toma de decisiones directivas, permitiendo asignar recursos y evaluar resultados.
+              p.mb-0 Corresponden a los logros que la organización proyecta alcanzar en el largo plazo, orientados al cumplimiento de su visión, misión y valores. Definen el rumbo general, establecen prioridades y guían la toma de decisiones directivas, permitiendo asignar recursos y evaluar resultados.
           .row(titulo="Objetivos tácticos")
             .col
-              p.mb-0 son metas de mediano y corto plazo que permiten desarrollar los objetivos estratégicos mediante acciones específicas en áreas o procesos de la organización. Se enfocan en la implementación de actividades concretas, facilitando la coordinación del trabajo y el uso eficiente de los recursos disponibles.
+              p.mb-0 Son metas de mediano y corto plazo que permiten desarrollar los objetivos estratégicos mediante acciones específicas en áreas o procesos de la organización. Se enfocan en la implementación de actividades concretas, facilitando la coordinación del trabajo y el uso eficiente de los recursos disponibles.
           .row(titulo="Objetivos operativos")
             .col
-              p.mb-0 son metas de corto plazo orientadas a la ejecución de tareas y actividades diarias. Se caracterizan por ser específicas y medibles, definidas en periodos cortos, lo que permite hacer seguimiento al desempeño, mejorar la productividad y asegurar el cumplimiento de los objetivos organizacionales.
+              p.mb-0 Son metas de corto plazo orientadas a la ejecución de tareas y actividades diarias. Se caracterizan por ser específicas y medibles, definidas en periodos cortos, lo que permite hacer seguimiento al desempeño, mejorar la productividad y asegurar el cumplimiento de los objetivos organizacionales.
     .row.justify-content-center.mb-4
       .col-lg-10
         p.mb-0 En conjunto, los objetivos estratégicos, tácticos y operativos permiten estructurar la gestión organizacional de manera coherente y articulada, asegurando que las decisiones de alto nivel se traduzcan en acciones concretas. Esta jerarquización facilita la planificación, el seguimiento y la evaluación del desempeño, contribuyendo al logro de resultados y al fortalecimiento de la organización en su entorno.

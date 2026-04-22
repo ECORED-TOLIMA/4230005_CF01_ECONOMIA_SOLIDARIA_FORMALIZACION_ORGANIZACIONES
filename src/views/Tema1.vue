@@ -157,31 +157,31 @@
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img15.svg' alt='Icono')
-              h4.text-center Gestión del conocimiento:
+              h4.text-center Gestión del conocimiento
               p.text-center Proceso sistemático para capturar, organizar, compartir y aplicar el saber colectivo de la organización como ventaja competitiva sostenible.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img16.svg' alt='Icono')
-              h4.text-center Gestión por procesos:
+              h4.text-center Gestión por procesos
               p.text-center Enfoque que identifica, diseña y optimiza los procesos organizacionales para generar valor de manera consistente y reducir la variabilidad en los resultados.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img17.svg' alt='Icono')
-              h4.text-center Gerencia estratégica:
+              h4.text-center Gerencia estratégica
               p.text-center Metodología que integra la visión a largo plazo con la operación cotidiana, alineando los recursos organizacionales con los objetivos misionales.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img18.svg' alt='Icono')
-              h4.text-center Administración digital:
+              h4.text-center Administración digital
               p.text-center Incorporación de herramientas tecnológicas y sistemas de información en los procesos administrativos para mejorar la toma de decisiones, la transparencia y la eficiencia operativa.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img19.svg' alt='Icono')
-              h4.text-center Metodologías ágiles:
+              h4.text-center Metodologías ágiles
               p.text-center Enfoques de gestión adaptativa que priorizan la flexibilidad, la iteración y la colaboración entre equipos, aplicables tanto en empresas tecnológicas como en organizaciones sociales y solidarias.
     p.mb-0 El reconocimiento de estos enfoques contemporáneos permite comprender por qué la administración se ha convertido en una disciplina indispensable para cualquier tipo de organización. Su importancia no radica únicamente en los instrumentos que ofrece, sino en la capacidad que brinda para orientar de manera coherente los esfuerzos colectivos hacia resultados concretos y sostenibles.
 
@@ -194,9 +194,9 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img20.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La implementación de la administración en las organizaciones genera un sinnúmero de escenarios posibles que, conjugados con los recursos disponibles, pueden ser factibles. Para ello, la organización debe definir el propósito a alcanzar desde su proyección estratégica para luego desagregarlo en cada área o departamento. De este modo, a través de la definición de procesos y procedimientos, la asignación de funciones y responsabilidades, así como la disposición de recursos físicos y tecnológicos, las áreas conocen con claridad el alcance de su labor y los objetivos a los que deben aportar, dando paso a la medición y el monitoreo de objetivos, metas y actividades.
+        p.mb-0 La administración, como disciplina, brinda herramientas y conocimientos que permiten orientar el esfuerzo coordinado de todos los recursos que conforman una organización, tanto materiales como humanos, hacia el logro eficiente de los mismos objetivos. A través de su implementación, la organización puede anticiparse a situaciones de cambio o de crisis externa que puedan afectar su desempeño, garantizando así su continuidad y estabilidad operativa.
 
-    p.mb-3 La administración es la ciencia que gestiona un conjunto de bienes materiales, recursos humanos, tecnológicos y financieros con el fin de generar un beneficio a sus inversionistas, a partir de allí se identifica con claridad que la administración nació como herramienta para garantizar la generación de resultados beneficiosos en una organización, mediante la puesta en marcha de una serie de recursos que al ser dispuestos para el logro de los objetivos, deben ser distribuidos en una estructura que facilite la ejecución de actividades mediante la sectorización de las funciones administrativas y el desempeño de cada rol vinculado a la organización.
+    p.mb-3 La implementación de la administración en las organizaciones genera un sinnúmero de escenarios posibles que, conjugados con los recursos disponibles, pueden ser factibles. Para ello, la organización debe definir el propósito a alcanzar desde su proyección estratégica para luego desagregarlo en cada área o departamento. De este modo, a través de la definición de procesos y procedimientos, la asignación de funciones y responsabilidades, así como la disposición de recursos físicos y tecnológicos, las áreas conocen con claridad el alcance de su labor y los objetivos a los que deben aportar, dando paso a la medición y el monitoreo de objetivos, metas y actividades.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -217,6 +217,7 @@
         figure
           img(src="@/assets/curso/temas/tema1/img23.png", alt="Imagen decorativa") 
       .col-lg-7
+        p La aplicación sistemática de la administración aporta beneficios concretos y medibles a las organizaciones. A continuación, se enumeran los principales beneficios que se derivan de su implementación adecuada:
         LineaTiempoD.color-acento-botones
           p(numero="A" titulo="Optimización de recursos") Permite distribuir eficientemente los recursos humanos, financieros, tecnológicos y materiales, evitando desperdicios y duplicidades.
           p(numero="B" titulo="Claridad en roles y responsabilidades") Define con precisión las funciones de cada miembro del equipo, reduce conflictos internos y mejora la coordinación entre áreas.
@@ -277,14 +278,13 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
-        .p-4(data-aos="fade-up")
-          p.mb-0 Las cuatro funciones del proceso administrativo no operan de manera aislada. Cada una responde a una pregunta clave, emplea herramientas específicas y genera un resultado concreto que alimenta la siguiente etapa. La siguiente tabla presenta esta articulación de manera integrada:
+        p.mb-4 El análisis individual de cada función permite reconocer su propósito específico dentro de la organización. Sin embargo, su verdadero valor se manifiesta cuando actúan de manera conjunta y articulada, conformando un ciclo continuo que garantiza la coherencia entre lo que se planea y lo que finalmente se ejecuta y evalúa.
         .row.justify-content-center.mb-3
             .col-lg-auto
               figure
                 img(src='@/assets/curso/temas/intro/img3.svg', width='180', alt='Texto que describa la imagen')
             .col-lg-10
-              p.mb-0 El análisis individual de cada función permite reconocer su propósito específico dentro de la organización. Sin embargo, su verdadero valor se manifiesta cuando actúan de manera conjunta y articulada, conformando un ciclo continuo que garantiza la coherencia entre lo que se planea y lo que finalmente se ejecuta y evalúa.
+              p.mb-0 Las cuatro funciones del proceso administrativo no operan de manera aislada. Cada una responde a una pregunta clave, emplea herramientas específicas y genera un resultado concreto que alimenta la siguiente etapa. La siguiente tabla presenta esta articulación de manera integrada:              
       .col-lg-3
         figure
           img(src='@/assets/curso/temas/tema1/img27.svg', width='180', alt='Texto que describa la imagen')
@@ -563,42 +563,43 @@
           figure
             img(src="@/assets/curso/temas/tema1/img45.png" alt="Persona con laptop")
         .col-lg-8.col-11
+          p A continuación, se presentan los pilares fundamentales que sintetizan esta interacción y permiten diferenciar ambas disciplinas de manera efectiva:
           SlyderF(columnas="col-md-6 col-lg-6 col-xl-4")
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img46.svg' alt='Icono')
-              h4.text-center Enfoque:
+              h4.text-center Enfoque
               p.text-center La administración gestiona recursos y tareas, mientras que la GpR se centra en el desempeño y el impacto generado.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img47.svg' alt='Icono')
-              h4.text-center Finalidad:
+              h4.text-center Finalidad
               p.text-center  La administración busca la eficiencia operativa y la GpR persigue resultados de valor para la ciudadanía.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img48.svg' alt='Icono')
-              h4.text-center Procesos:
+              h4.text-center Procesos
               p.text-center La GpR transforma la administración tradicional al incorporar planificación estratégica, presupuesto por resultados y evaluación continua.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img49.svg' alt='Icono')
-              h4.text-center Complementariedad:
+              h4.text-center Complementariedad
               p.text-center La administración aporta la normativa y estructura, mientras que la GpR define el sentido estratégico y los beneficios sociales.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img50.svg' alt='Icono')
-              h4.text-center Ciclo de retroalimentación:
+              h4.text-center Ciclo de retroalimentación
               p.text-center Los datos obtenidos de la GpR permiten a la administración corregir procesos internos y optimizar el gasto público.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema1/img51.svg' alt='Icono')
-              h4.text-center Transparencia:
+              h4.text-center Transparencia
               p.text-center  La unión de ambas disciplinas facilita la rendición de cuentas, permitiendo que la gestión sea visible, auditable y enfocada en metas claras.
     
     .row.justify-content-center.align-items-center.mb-5

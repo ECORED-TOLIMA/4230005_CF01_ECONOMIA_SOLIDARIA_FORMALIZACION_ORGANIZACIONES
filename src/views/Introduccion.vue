@@ -7,6 +7,7 @@
         span
           i.fas.fa-info
       h1 Introducción
+    p.mb-4 La economía solidaria representa una de las formas más relevantes de organización económica en Colombia y en el mundo. Comprender sus fundamentos implica reconocer, en primer lugar, la administración como la disciplina que sustenta cualquier tipo de organización, desde las más pequeñas microempresas hasta las grandes corporaciones y, por supuesto, las entidades del sector solidario. Sin este punto de partida, no sería posible entender cómo las organizaciones de economía solidaria gestionan sus recursos, diseñan sus estrategias y alcanzan sus objetivos colectivos.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3
         figure

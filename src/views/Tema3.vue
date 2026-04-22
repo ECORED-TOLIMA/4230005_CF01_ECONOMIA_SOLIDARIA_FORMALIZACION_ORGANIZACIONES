@@ -29,7 +29,7 @@
           img(src='@/assets/curso/temas/tema3/img3.png', width='180', alt='Texto que describa la imagen')
 
     .tarjeta--fondo2.p-2.px-5.mb-4
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-4
         .col-lg-4.d-none.d-lg-block
           figure
             img(src="@/assets/curso/temas/tema3/img4.png" alt="Persona con laptop")
@@ -39,37 +39,37 @@
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img5.svg' alt='Icono')
-              h4.text-center Ayuda mutua:
+              h4.text-center Ayuda mutua
               p.text-center Apoyo y colaboración recíprocos entre los asociados para obtener beneficios comunes, sustentados en la responsabilidad individual que se potencia con el esfuerzo colectivo.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img6.svg' alt='Icono')
-              h4.text-center Democracia:
+              h4.text-center Democracia
               p.text-center Participación igualitaria de todos los miembros en el ejercicio de sus derechos y deberes, orientada a reducir brechas económicas y promover el bienestar colectivo.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img7.svg' alt='Icono')
-              h4.text-center Equidad:
+              h4.text-center Equidad
               p.text-center Creación de condiciones que favorecen la igualdad de oportunidades para grupos históricamente excluidos, reconociendo la equidad como sinónimo de justicia y equilibrio.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img8.svg' alt='Icono')
-              h4.text-center Solidaridad:
+              h4.text-center Solidaridad
               p.text-center Conciencia colectiva que impulsa la colaboración y el apoyo mutuo entre los integrantes de una comunidad, como condición necesaria para el desarrollo integral de sus miembros.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img9.svg' alt='Icono')
-              h4.text-center Primacía de las personas sobre el capital:
+              h4.text-center Primacía de las personas sobre el capital
               p.text-center Las decisiones organizacionales priorizan el bienestar colectivo y la calidad de vida de los asociados por encima de la maximización de utilidades.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img10.svg' alt='Icono')
-              h4.text-center Gestión democrática y participativa:
+              h4.text-center Gestión democrática y participativa
               p.text-center Los miembros participan en la toma de decisiones de manera igualitaria, aplicando el principio de un asociado, un voto.
 
     .row.justify-content-center.align-items-center
@@ -83,28 +83,28 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.1 Origen y evolución
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-9
         p.mb-4 La economía solidaria no surgió como una teoría académica sino como una respuesta práctica de los trabajadores ante las condiciones de explotación generadas por la Revolución Industrial en el siglo XIX. Ante el desempleo y la degradación salarial, grupos de obreros comenzaron a organizarse, a reunir sus recursos y a trabajar de manera conjunta para acceder a bienes básicos a precios justos. De este proceso emergieron las primeras cooperativas y sociedades mutualistas de la era moderna.
-        .tarjeta-bg02.p-4(data-aos="fade-up")
+        .tarjeta-bg02.p-4.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-auto.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/tema3/img11.svg', width='180', alt='Texto que describa la imagen')
             .col-lg-10
               p.mb-0 Desde ese origen obrero en Europa, el modelo se expandió hacia América Latina y llegó a Colombia con una historia normativa que se extiende desde 1931 hasta la actualidad. Reconocer este recorrido histórico permite comprender por qué la economía solidaria es hoy una alternativa vigente, con estructura legal propia, organismos de control y miles de organizaciones activas en todo el territorio nacional.
-        .p-4(data-aos="fade-up")
-          .row.justify-content-center.align-items-center
-            .col-lg-3.d-none.d-lg-block
-              figure
-                img(src='@/assets/curso/temas/tema3/img12.svg', width='180', alt='Texto que describa la imagen')
-            .col-lg-9
-              p.mb-0 Para comprender cómo llegó a consolidarse el sector solidario en Colombia, es necesario recorrer los hitos que marcaron su desarrollo. La siguiente línea de tiempo presenta, paso a paso, los momentos clave que transformaron una iniciativa obrera del siglo XIX en el marco normativo e institucional que hoy regula miles de organizaciones en el país.
+        
+        .row.justify-content-center.align-items-center
+          .col-lg-3.d-none.d-lg-block
+            figure
+              img(src='@/assets/curso/temas/tema3/img12.svg', width='180', alt='Texto que describa la imagen')
+          .col-lg-9
+            p.mb-0 Para comprender cómo llegó a consolidarse el sector solidario en Colombia, es necesario recorrer los hitos que marcaron su desarrollo. La siguiente línea de tiempo presenta, paso a paso, los momentos clave que transformaron una iniciativa obrera del siglo XIX en el marco normativo e institucional que hoy regula miles de organizaciones en el país.
       .col-lg-3.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema3/img13.png', width='180', alt='Texto que describa la imagen')
 
-    LineaTiempoE.color-primario.mb-5
+    LineaTiempoE.color-primario.mb-4
       .row(titulo="1844" subtitulo="")
         .col-lg-2
           figure
@@ -153,7 +153,7 @@
           h5 Consolidación y crecimiento
           p El cooperativismo se consolida como la figura más destacada del sector solidario en Colombia, con crecimiento constante y reconocimiento internacional por la OIT (2010).
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-8.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema3/img20.png', width='180', alt='Texto que describa la imagen')
@@ -191,9 +191,9 @@
           figure
             img(src='@/assets/curso/temas/tema3/img23.svg', alt='Matriz RACI para dispositivos móviles')
 
-    p.mb-5 Estos cuatro valores no son una lista de buenas intenciones, son los criterios que distinguen a una organización verdaderamente solidaria de una que solo adopta la forma jurídica sin asumir su esencia. Una cooperativa que no practica la democracia interna, una mutual que no fomenta la equidad o un fondo de empleados que no cultiva la solidaridad entre sus miembros habrán perdido el sentido que justifica su existencia. Reconocer y aplicar estos valores es, por tanto, la base de cualquier proceso de formalización y gestión solidaria.
+    p.mb-4 Estos cuatro valores no son una lista de buenas intenciones, son los criterios que distinguen a una organización verdaderamente solidaria de una que solo adopta la forma jurídica sin asumir su esencia. Una cooperativa que no practica la democracia interna, una mutual que no fomenta la equidad o un fondo de empleados que no cultiva la solidaridad entre sus miembros habrán perdido el sentido que justifica su existencia. Reconocer y aplicar estos valores es, por tanto, la base de cualquier proceso de formalización y gestión solidaria.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta-bg05.p-4(data-aos="fade-up")
           .row.justify-content-center.align-items-center
@@ -210,12 +210,12 @@
       .col-lg-10
         p.mb-0 A continuación, se presentan los cinco principios que traducen los valores solidarios en criterios de acción concretos para la toma de decisiones organizacionales; cada uno se desarrolla de forma independiente para facilitar su comprensión y apropiación:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-7.col-lg-4
         figure
           img(src="@/assets/curso/temas/tema3/img25.png", alt="Imagen decorativa") 
       .col-lg-6
-        LineaTiempoD.color-secundario
+        LineaTiempoD.color-acento-botones
           p(numero="1" titulo="Primacía de las personas y el objetivo social sobre el capital") Las decisiones empresariales priorizan la equidad, el bienestar colectivo y la calidad de vida de los asociados por encima de la acumulación de capital.
           p(numero="2" titulo="Gestión democrática y participativa") Los miembros participan en la toma de decisiones de manera igualitaria. Cada asociado tiene voz y voto en los asuntos de la organización, sin importar el monto de su aporte.
           p(numero="3" titulo="Solidaridad y cohesión social") Se fomenta la inclusión de colectivos vulnerables y la igualdad de oportunidades, fortaleciendo el tejido social y la cohesión entre los miembros de la comunidad.
@@ -297,7 +297,7 @@
       .col-lg-8
         .tarjeta-bg01.p-4(data-aos="fade-up")
           .row.mb-3
-              .col-lg-1.mb-5
+              .col-lg-1.mb-4
                 figure
                   img(src='@/assets/curso/temas/tema3/img33.svg', width='180', alt='Texto que describa la imagen')
               .col-lg-12
@@ -338,7 +338,7 @@
     .row.justify-content-center.mb-4
       
       .col-lg-6
-        LineaTiempoD.color-secundario
+        LineaTiempoD.color-acento-botones
           p(numero="1" titulo="Europa. Complemento del sector público") En países como Italia y España, las organizaciones solidarias complementan las labores del Estado en la prestación de servicios sociales con alta demanda, actuando como operadores de bienestar social con gestión democrática y sin ánimo de lucro.
           p(numero="2" titulo="Norteamérica. El tercer sector") En Estados Unidos y Canadá predomina el tercer sector, que abastece necesidades no cubiertas por el sector público ni el privado, con presencia significativa en educación, salud y servicios comunitarios.
           p(numero="3" titulo="América Latina. Cooperativismo y autogestión") La región cuenta con una larga tradición de movimientos cooperativistas y de autogestión obrera. Hitos como la Revolución Mexicana (1930) impulsaron el sindicalismo como base para la creación de empresas administradas por sus propios trabajadores.
@@ -441,7 +441,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 4.
           span Caracterización comparativa de las organizaciones de economía solidaria en Colombia
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tabla-a.color-acento-contenido 
           .tabla-a
@@ -550,7 +550,7 @@
             .col-lg-10
               p.mb-0 El desconocimiento de las normas que rigen una organización solidaria puede derivar en sanciones, pérdida de beneficios tributarios o incluso en su disolución: conocer este marco no es solo un requisito académico sino una herramienta práctica de gestión.
 
-    p.mb-5 A partir de este fundamento constitucional, el legislador ha desarrollado leyes y decretos específicos para cada tipo de organización solidaria, conformando un cuerpo normativo articulado que regula su actividad en todos los aspectos. Este marco se organiza en tres niveles jerárquicos como el constitucional, legal y reglamentario, cuyo conocimiento es indispensable para cualquier gestor del sector.
+    p.mb-4 A partir de este fundamento constitucional, el legislador ha desarrollado leyes y decretos específicos para cada tipo de organización solidaria, conformando un cuerpo normativo articulado que regula su actividad en todos los aspectos. Este marco se organiza en tres niveles jerárquicos como el constitucional, legal y reglamentario, cuyo conocimiento es indispensable para cualquier gestor del sector.
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
@@ -687,7 +687,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-6
-        LineaTiempoD.color-secundario
+        LineaTiempoD.color-acento-botones
           p(numero="1" titulo="CONES — Consejo Nacional de la Economía Solidaria") Formula y coordina, a nivel nacional, las políticas, estrategias, planes, programas y proyectos pertinentes al sistema de la economía solidaria en Colombia.
           p(numero="2" titulo="UAEOS — Unidad Administrativa Especial de Organizaciones Solidarias") Formula, orienta y desarrolla políticas para el fomento y fortalecimiento de organizaciones solidarias. Es la denominación actual de lo que fue DANSOCIAL, creado mediante la Ley 454 de 1998.
           p(numero="3" titulo="FONES — Fondo de Fomento de la Economía Solidaria") Otorga créditos para proyectos de desarrollo de las entidades solidarias. La afiliación es voluntaria y solo las entidades afiliadas tienen acceso a sus créditos y apoyos financieros.
@@ -722,25 +722,23 @@
     #t_3_7.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.7 Cadenas productivas en la economía solidaria
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12
-        p 
-        .bloque-texto-gg.bloque-texto-gg-imagen.color-primario
-          .bloque-texto-gg__img(
-            :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img56.png')})`}"
-          )
-          .bloque-texto-gg__texto.p-4
-            .row.mb-3
-              .col-lg-auto.d-none.d-lg-block
-                figure
-                  img(src='@/assets/curso/temas/tema3/img57.svg', width='180', alt='Texto que describa la imagen')
-            p.mb-0 La economía solidaria no se limita a la constitución y gestión interna de las organizaciones, también transforma la manera en que estas participan en la economía real, producen bienes, prestan servicios y llevan sus productos hasta el consumidor final. Una de las expresiones más concretas de esta transformación es la cadena productiva solidaria, un modelo en el que la cooperación y la distribución equitativa de los beneficios reemplazan la lógica de la competencia individual. Comprender cómo funciona esta cadena permite reconocer el alcance real del sector solidario más allá de su estructura jurídica y organizacional.
+
+    .bloque-texto-gg.bloque-texto-gg-imagen.color-primario.mb-4
+      .bloque-texto-gg__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img56.png')})`}"
+      )
+      .bloque-texto-ggg__texto.p-4
+        .row.mb-3
+          .col-lg-auto.d-none.d-lg-block
+            figure
+              img(src='@/assets/curso/temas/tema3/img57.svg', width='180', alt='Texto que describa la imagen')
+        p.mb-0 La economía solidaria no se limita a la constitución y gestión interna de las organizaciones, también transforma la manera en que estas participan en la economía real, producen bienes, prestan servicios y llevan sus productos hasta el consumidor final. Una de las expresiones más concretas de esta transformación es la cadena productiva solidaria, un modelo en el que la cooperación y la distribución equitativa de los beneficios reemplazan la lógica de la competencia individual. Comprender cómo funciona esta cadena permite reconocer el alcance real del sector solidario más allá de su estructura jurídica y organizacional.
 
     p.mb-4 Una cadena productiva comprende todas las etapas que median entre la producción de un bien o servicio y su consumo final:
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3
-        .tarjeta-bg02.p-4
+        .tarjeta.tarjeta-bg02.p-4
           .row
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -749,7 +747,7 @@
               h5 #[b Elaboración]
               
       .col-lg-3
-        .tarjeta-bg02.p-4
+        .tarjeta.tarjeta-bg02.p-4
           .row
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -758,7 +756,7 @@
               h5 #[b Transformación]
               
       .col-lg-3
-        .tarjeta-bg02.p-4
+        .tarjeta.tarjeta-bg02.p-4
           .row
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
@@ -767,14 +765,14 @@
               h5 #[b Distribución]
               
       .col-lg-3
-        .tarjeta-bg02.p-4
+        .tarjeta.tarjeta-bg02.p-4
           .row
             .col-lg-auto.d-none.d-lg-block.mb-3
               figure
                 img(src='@/assets/curso/temas/tema3/img61.svg', width='180', alt='Texto que describa la imagen')
             .col-lg-12
               h5 #[b Comercialización]
-    p.mb-5 En el contexto de la economía solidaria, las relaciones entre los actores de la cadena no se rigen únicamente por la lógica del mercado, sino también por principios de cooperación, comercio justo y distribución equitativa de los beneficios generados entre quienes participan del proceso productivo.
+    p.mb-4 En el contexto de la economía solidaria, las relaciones entre los actores de la cadena no se rigen únicamente por la lógica del mercado, sino también por principios de cooperación, comercio justo y distribución equitativa de los beneficios generados entre quienes participan del proceso productivo.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta-bg05.p-4(data-aos="fade-up")
@@ -799,13 +797,20 @@
         figure
           img(src="@/assets/curso/temas/tema3/img64.png", alt="Imagen decorativa") 
       .col-lg-7
-        LineaTiempoD.color-secundario
+        LineaTiempoD.color-acento-botones
           p(numero="1" titulo="Producción") Pequeños productores organizados en formas asociativas generan materias primas o productos primarios bajo principios de cooperación, distribuyendo equitativamente los costos y los beneficios del proceso productivo.
           p(numero="2" titulo="Transformación") Las organizaciones procesan y transforman los productos primarios de manera conjunta, compartiendo maquinaria, infraestructura y conocimiento técnico para mejorar la calidad y reducir los costos de producción.
           p(numero="3" titulo="Distribución solidaria") Se eliminan o reducen los intermediarios mediante circuitos cortos de comercialización, conectando directamente a los productores con los consumidores y mejorando los márgenes de ganancia para las comunidades productoras.
           p(numero="4" titulo="Comercialización y consumo justo") Protege la confianza de los ahorradores y depositantes de las cooperativas inscritas. Aplica medidas de apoyo únicamente a entidades cuya situación financiera sea viable, a juicio de su Junta Directiva.
-          p(numero="5" titulo="Supersolidaria — Superintendencia de la Economía Solidaria") Los productos llegan al consumidor bajo estándares de comercio justo, con precios que reconocen el valor real del trabajo y garantizan condiciones dignas para los productores en cada eslabón de la cadena.
-    p.mb-4 Los cuatro eslabones presentados demuestran que en la economía solidaria la cadena productiva no es solo un proceso económico, es un mecanismo de cohesión social que distribuye los beneficios entre quienes participan del trabajo colectivo en cada etapa. Comprender esta estructura permite reconocer cómo las organizaciones solidarias transforman su entorno productivo desde adentro. A continuación, se presentan experiencias concretas que ilustran cómo este modelo opera en distintos territorios de Colombia:
+          
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-1.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/intro/img3.svg', alt='Texto que describa la imagen')
+      .col-lg-11
+        p.mb-0 Los cuatro eslabones presentados demuestran que en la economía solidaria la cadena productiva no es solo un proceso económico, es un mecanismo de cohesión social que distribuye los beneficios entre quienes participan del trabajo colectivo en cada etapa. Comprender esta estructura permite reconocer cómo las organizaciones solidarias transforman su entorno productivo desde adentro. A continuación, se presentan experiencias concretas que ilustran cómo este modelo opera en distintos territorios de Colombia:
+      
+    
     .tarjeta--fondo2.p-3.px-5.mb-4
       .row.justify-content-center.align-items-center
         .col-lg-4.d-none.d-lg-block
@@ -817,31 +822,31 @@
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img66.svg' alt='Icono')
-              h4.text-center Cooperativas cafeteras:
+              h4.text-center Cooperativas cafeteras
               p.text-center Pequeños caficultores asociados gestionan desde la cosecha hasta la exportación, garantizando mejores precios bajo estándares de comercio justo con reconocimiento internacional.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img67.svg' alt='Icono')
-              h4.text-center Cadena agroindustrial de la yuca:
+              h4.text-center Cadena agroindustrial de la yuca
               p.text-center Asociaciones agrícolas articulan producción, transformación en almidón o productos derivados y comercialización conjunta, eliminando intermediarios y mejorando los ingresos de los productores.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img68.svg' alt='Icono')
-              h4.text-center Asociaciones de paneleros:
+              h4.text-center Asociaciones de paneleros
               p.text-center Productores que se asocian para transformar caña de azúcar en panela, comparten los trapiches para reducir costos y mejoran colectivamente la comercialización del producto final.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img69.svg' alt='Icono')
-              h4.text-center Cooperativas de reciclaje:
+              h4.text-center Cooperativas de reciclaje
               p.text-center Recicladores organizados que formalizan su labor, gestionan la recolección, la clasificación y la venta de materiales, y generan ingresos estables a través de la autogestión solidaria.
             .tarjeta.tarjeta-slyderf.p-4
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema3/img70.svg' alt='Icono')
-              h4.text-center Redes de artesanos:
+              h4.text-center Redes de artesanos
               p.text-center Agrupaciones que compran materias primas de manera conjunta, producen bajo modelos de comercio justo y comercializan sin intermediarios, fortaleciendo la identidad cultural y la economía local.
     p Las cadenas productivas solidarias evidencian que los principios de cooperación, equidad y autogestión no son valores abstractos sino mecanismos reales de transformación económica y social que operan desde las comunidades. Con este numeral concluye el recorrido por las organizaciones de economía solidaria, un recorrido que entrega las bases conceptuales, históricas, normativas e institucionales necesarias para comprender el sector solidario colombiano en toda su dimensión y diversidad.
 
