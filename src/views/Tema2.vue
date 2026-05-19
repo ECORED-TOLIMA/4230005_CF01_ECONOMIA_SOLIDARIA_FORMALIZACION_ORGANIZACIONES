@@ -73,7 +73,7 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img7.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En la organización la misión, la visión y los valores son esenciales para construir la filosofía de la organización consolidada en una cultura organizacional que vincula políticas, regla, valores construyendo una identidad propia y definiendo las orientaciones para el desarrollo organizacional. Esta orientación se convierte en fundamento para la definición de reglas, normas y políticas que establecen el marco de acción y delimitan el comportamiento del equipo de trabajo y demás miembros; para esto es esencial definir la planeación estratégica, que no es otra cosa que diseñar desde cero la proyección que se anhela alcanzar en un período de tiempo determinado.
+        p.mb-0 En la organización, la misión, la visión y los valores son esenciales para construir la filosofía de la organización consolidada en una cultura organizacional que vincula políticas, regla, valores, construyendo una identidad propia y definiendo las orientaciones para el desarrollo organizacional. Esta orientación se convierte en fundamento para la definición de reglas, normas y políticas que establecen el marco de acción y delimitan el comportamiento del equipo de trabajo y demás miembros; para esto es esencial definir la planeación estratégica, que no es otra cosa que diseñar desde cero la proyección que se anhela alcanzar en un período de tiempo determinado.
     p.mb-4 Los componentes clave de la planeación estratégica son la misión, la visión y los valores, los cuales se presentan a continuación:
     .row.justify-content-center.mb-4
       .col-lg-4

@@ -127,7 +127,7 @@
             img(src='@/assets/curso/temas/tema3/img16.svg', alt='Texto que describa la imagen')
         .col-lg-8.mb-4.mb-lg-0
           h5 Adopción del concepto de economía solidaria
-          p El Decreto 2536 crea el Consejo Nacional de Economía Solidaria (CONES) y reconoce el sector como componente estratégico del entorno económico nacional
+          p El Decreto 2536 crea el Consejo Nacional de Economía Solidaria (CONES) y reconoce el sector como componente estratégico del entorno económico nacional.
       
       .row(titulo="1988" subtitulo="")
         .col-lg-2
@@ -135,7 +135,7 @@
             img(src='@/assets/curso/temas/tema3/img17.svg', alt='Texto que describa la imagen')
         .col-lg-8.mb-4.mb-lg-0
           h5 Ley 79: organización del sector cooperativo
-          p Organiza las formas solidarias del cooperativismo, las asociaciones mutuales y los fondos de empleados, dotando al sector de un marco propicio para su desarroll
+          p Organiza las formas solidarias del cooperativismo, las asociaciones mutuales y los fondos de empleados, dotando al sector de un marco propicio para su desarrollo.
       
       .row(titulo="1998" subtitulo="")
         .col-lg-2
@@ -362,7 +362,7 @@
               img(src='@/assets/curso/temas/tema3/img38.svg' alt='AvatarTop')
               .tarjeta.color-primario.w-100
                 .p-4
-                  h5.text-center Organizaciónes de economía solidaria.
+                  h5.text-center Organizaciones de economía solidaria.
                   
           .col-lg-6
             .tarjeta-avatar.h-100
@@ -465,7 +465,7 @@
                 td Mayores de edad, personas jurídicas sin ánimo de lucro y de derecho público.
                 td Personas naturales mayores de 14 años.
                 td Personas naturales mayores de 14 años.
-                td Entidades solidarias y personas naturales de la misma empresa (vínculo común).
+                td Organismos de economía solidaria, entidades y personas naturales de la misma empresa.
               tr
                 th.bg-crema-claro Mínimo de asociados
                 td.text-center 20
@@ -475,14 +475,14 @@
               tr
                 th.bg-crema-claro Dirección
                 td Asamblea y consejo de administración.
-                td Junta de asociados, comité de administración (Asamblea/Consejo si son +10).
+                td Junta de asociados, comité de administración, asamblea y consejo de administración para entidades con más de 10 asociados.
                 td Asamblea y junta directiva.
                 td Asamblea y junta directiva.
               tr
                 th.bg-crema-claro Control
-                td Junta de vigilancia y revisor fiscal.
-                td Junta de vigilancia y revisor fiscal.
-                td Junta de control social y revisor fiscal.
+                td Junta de vigilancia y revisor fiscal (puede exonerarse).	
+                td Junta de vigilancia y revisor fiscal (puede exonerarse).	
+                td Junta de control social y revisor fiscal.	
                 td Comité de control social y revisor fiscal.
               tr
                 th.bg-crema-claro Representante legal
@@ -492,10 +492,10 @@
                 td Gerente.
               tr
                 th.bg-crema-claro Actividades
-                td Todas según su clase.
-                td Todas las cooperativas, excepto ahorro y crédito.
-                td Seguridad social y promoción del ser humano.
-                td Ahorro y crédito, y convenios.
+                td Todas las actividades según la clase de cooperativa.	
+                td Todas las actividades cooperativas, excepto ahorro y crédito.	
+                td Servicios de seguridad social y complementarios para la promoción y dignificación del ser humano.	
+                td Ahorro y crédito, y otras actividades por convenio.
               tr
                 th.bg-crema-claro Capacitación
                 td.text-center 20 horas.
@@ -504,15 +504,15 @@
                 td.text-center 20 horas.
               tr
                 th.bg-crema-claro Marco jurídico
-                td Ley 79 de 1988.
-                td Ley 79 de 1988.
-                td Decreto 1480 de 1989.
+                td Ley 79 de 1988 y decretos reglamentarios.	
+                td Ley 79 de 1988 y decretos reglamentarios.	
+                td Decreto 1480 de 1989.	
                 td Decreto 1481 de 1989.
               tr
                 th.bg-crema-claro Vigilancia
-                td Supersolidaria y otras.
-                td Supersolidaria y otras.
-                td Supersolidaria.
+                td Supersolidaria y otras superintendencias.	
+                td Supersolidaria y otras superintendencias.	
+                td Supersolidaria.	
                 td Supersolidaria.
           figcaption Fuente: con base en Calderón (s.f.), Ley 79 de 1988, Decreto 1480 de 1989 y Decreto 1481 de 1989
 
@@ -617,7 +617,7 @@
                 td Determina el marco conceptual de la economía solidaria. Transformó **DANCOOP** en **DANSOCIAL**, creó la Superintendencia de la Economía Solidaria (**Supersolidaria**), el **FOGACOOP** y transformó el **CONES**.
           figcaption Fuente: Congreso de la República de Colombia.
           .tarjeta-bg06.p-3
-            p.mb-0 Nota. La Ley 454 de 1998 es la norma rectora del sector solidario en Colombia. Para consultar su texto completo, véase: www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3433 
+            p.mb-0 Nota. La Ley 454 de 1998 es la norma rectora del sector solidario en Colombia. Para consultar su texto completo, véase: <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3433" target="_blank">www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3433</a>
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
@@ -658,7 +658,7 @@
                 td **Cooperativas de Trabajo Asociado.** Regula su organización, funcionamiento y las garantías laborales de los asociados.
           figcaption Fuente: Gobierno Nacional de Colombia. Gestor Normativo. Función Pública.
           .tarjeta-bg06.p-3
-            p.mb-0 Nota. El Normograma completo del sector solidario, con la totalidad de decretos y acuerdos vigentes, se encuentra disponible en: www.supersolidaria.gov.co/es/content/normograma
+            p.mb-0 Nota. El Normograma completo del sector solidario, con la totalidad de decretos y acuerdos vigentes, se encuentra disponible en: <a href="https://www.supersolidaria.gov.co/es/content/normograma" target="_blank">www.supersolidaria.gov.co/es/content/normograma</a>
 
     .row.justify-content-center.align-items-center
       .col-lg-9
@@ -801,7 +801,7 @@
           p(numero="1" titulo="Producción") Pequeños productores organizados en formas asociativas generan materias primas o productos primarios bajo principios de cooperación, distribuyendo equitativamente los costos y los beneficios del proceso productivo.
           p(numero="2" titulo="Transformación") Las organizaciones procesan y transforman los productos primarios de manera conjunta, compartiendo maquinaria, infraestructura y conocimiento técnico para mejorar la calidad y reducir los costos de producción.
           p(numero="3" titulo="Distribución solidaria") Se eliminan o reducen los intermediarios mediante circuitos cortos de comercialización, conectando directamente a los productores con los consumidores y mejorando los márgenes de ganancia para las comunidades productoras.
-          p(numero="4" titulo="Comercialización y consumo justo") Protege la confianza de los ahorradores y depositantes de las cooperativas inscritas. Aplica medidas de apoyo únicamente a entidades cuya situación financiera sea viable, a juicio de su Junta Directiva.
+          p(numero="4" titulo="Comercialización y consumo justo") Los productos llegan al consumidor bajo estándares de comercio justo, con precios que reconocen el valor real del trabajo y garantizan condiciones dignas para los productores en cada eslabón de la cadena.
           
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-1.d-none.d-lg-block

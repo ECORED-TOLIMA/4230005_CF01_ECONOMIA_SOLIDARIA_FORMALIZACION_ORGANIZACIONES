@@ -265,13 +265,13 @@
               p Define el futuro de la organizacion; establece qué, cómo, cuándo, dónde, quién y qué recursos se requiren para alcanzar los objetivos propuestos.
 
             .tarjeta.tarjeta-bg01.p-3(x="18%" y="50%" numero="+")
-              p Estructura la organizacion definiendo las áreas, los cargos, los procesos, los procedimientos y los recursos necesarios para un desempeño eficiente.
+              p Verifica el cumplimiento de lo planeado a través de estándares e indicadores que permiten analizar resultados y tomar decisiones oportunas.
             
             .tarjeta.tarjeta-bg01.p-3(x="81%" y="49%" numero="+")
-              p Orienta el trabajo de los colaboradores hacia logros de los objetivos mediante la comunicación efectiva, la motivación y el liderazdo.
+              p Estructura la organización definiendo las áreas, los cargos, los procesos, los procedimientos y los recursos necesarios para un desempeño eficiente. 
 
             .tarjeta.tarjeta-bg01.p-3(x="50%" y="66%" numero="+")
-              p Verifica el cumplimiento de lo planeado a través de estándares e indicadores que permiten analizar resultados y tomar decisiones oportunas.
+              p Orienta el trabajo de los colaboradores hacia logros de los objetivos mediante la comunicación efectiva, la motivación y el liderazdo.
         .d-block.d-lg-none
           figure
             img(src='@/assets/curso/temas/tema1/img26_1.svg', alt='Matriz RACI para dispositivos móviles')
@@ -462,7 +462,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img39_1.svg', alt='Figura 1. Clasificación de las empresas en Colombia. La figura presenta una síntesis de la clasificación de las organizaciones en Colombia, organizada en cinco criterios: tamaño, sector de actividad, origen del capital, ámbito de actuación y forma jurídica. Esta representación facilita la comprensión de las diferentes tipologías empresariales y su relación dentro del sistema económico.')
 
-    p.mb-5 Las clasificaciones presentadas permiten reconocer la diversidad de organizaciones existentes y comprender sus características desde distintos enfoques: estructural, económico, jurídico y territorial. Este análisis facilita la identificación de sus formas de organización, su funcionamiento y su papel dentro del sistema productivo, lo que contribuye a una comprensión integral del entorno empresarial.
+    p Las clasificaciones presentadas constituyen referentes generales para comprender los tipos de organizaciones desde un enfoque económico y administrativo. Estas permiten analizar sus características, su forma de operación y su relación con el entorno productivo.
     p.mb-5 En el contexto colombiano, esta clasificación se complementa con criterios normativos que establecen rangos específicos para categorizar las empresas según su tamaño, definidos a partir de la Unidad de Valor Tributario (UVT). A continuación, se presenta una tabla que ilustra esta clasificación para el año 2026.
 
     .row.justify-content-center.align-items-center.mb-3
@@ -477,7 +477,7 @@
           table
             thead
               tr.tarjeta-bg06
-                th.text-center Tamaño de Empresa
+                th.text-center Clasificación
                 th.text-center Manufactura
                 th.text-center Servicios
                 th.text-center Comercio
