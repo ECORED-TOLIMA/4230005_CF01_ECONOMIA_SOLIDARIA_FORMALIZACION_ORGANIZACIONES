@@ -174,8 +174,6 @@
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/temas/tema3/img22.svg', alt='Infografía de matriz RACI')
-                
-
             .tarjeta.tarjeta-bg01.p-3(x="33%" y="69%" numero="+")
               p Apoyo y colaboración recíprocos que permiten suplir necesidades comunes de manera colectiva.
 
@@ -192,7 +190,6 @@
             img(src='@/assets/curso/temas/tema3/img23.svg', alt='Matriz RACI para dispositivos móviles')
 
     p.mb-4 Estos cuatro valores no son una lista de buenas intenciones, son los criterios que distinguen a una organización verdaderamente solidaria de una que solo adopta la forma jurídica sin asumir su esencia. Una cooperativa que no practica la democracia interna, una mutual que no fomenta la equidad o un fondo de empleados que no cultiva la solidaridad entre sus miembros habrán perdido el sentido que justifica su existencia. Reconocer y aplicar estos valores es, por tanto, la base de cualquier proceso de formalización y gestión solidaria.
-
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta-bg05.p-4(data-aos="fade-up")
@@ -456,13 +453,13 @@
             tbody
               tr
                 th.bg-crema-claro Definición
-                td Empresa asociativa donde trabajadores/usuarios son aportantes y gestores para producir o distribuir bienes/servicios.
-                td Grupo organizado para actividades cooperativas que aún no puede constituirse como cooperativa por falta de capacidad técnica o económica.
-                td Persona jurídica constituida para ayuda recíproca frente a riesgos mediante servicios de seguridad social.
-                td Empresa constituida por trabajadores dependientes para prestar servicios de ahorro y crédito a sus asociados.
+                td Empresa asociativa en la que los trabajadores o usuarios son simultáneamente aportantes y gestores, creada para producir o distribuir bienes o servicios.
+                td Grupo organizado para realizar actividades cooperativas que, por carecer de capacidad económica, educativa o técnica, no puede constituirse como cooperativa.
+                td Persona jurídica de derecho privado constituida democráticamente para brindarse ayuda recíproca frente a riesgos eventuales mediante servicios de seguridad social.
+                td Empresa asociativa constituida por trabajadores dependientes de una misma empresa, orientada a prestar servicios de ahorro y crédito a sus asociados.
               tr
                 th.bg-crema-claro Asociados
-                td Mayores de edad, personas jurídicas sin ánimo de lucro y de derecho público.
+                td Mayores de edad, personas jurídicas sin ánimo de lucro y jurídicas de derecho público.
                 td Personas naturales mayores de 14 años.
                 td Personas naturales mayores de 14 años.
                 td Organismos de economía solidaria, entidades y personas naturales de la misma empresa.
@@ -488,7 +485,7 @@
                 th.bg-crema-claro Representante legal
                 td Gerente.
                 td Director ejecutivo.
-                td Gerente o presidente de junta.
+                td Gerente o presidente de la junta directiva.
                 td Gerente.
               tr
                 th.bg-crema-claro Actividades
@@ -514,7 +511,7 @@
                 td Supersolidaria y otras superintendencias.	
                 td Supersolidaria.	
                 td Supersolidaria.
-          figcaption Fuente: con base en Calderón (s.f.), Ley 79 de 1988, Decreto 1480 de 1989 y Decreto 1481 de 1989
+          figcaption Fuente: con base en Calderón (s.f.), Ley 79 de 1988, Decreto 1480 de 1989 y Decreto 1481 de 1989.
 
     .row.justify-content-center.align-items-center
       .col-lg-3
