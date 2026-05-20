@@ -271,7 +271,7 @@
               p Estructura la organización definiendo las áreas, los cargos, los procesos, los procedimientos y los recursos necesarios para un desempeño eficiente. 
 
             .tarjeta.tarjeta-bg01.p-3(x="50%" y="66%" numero="+")
-              p Orienta el trabajo de los colaboradores hacia logros de los objetivos mediante la comunicación efectiva, la motivación y el liderazdo.
+              p Orienta el trabajo de los colaboradores hacia logros de los objetivos mediante la comunicación efectiva, la motivación y el liderazgo.
         .d-block.d-lg-none
           figure
             img(src='@/assets/curso/temas/tema1/img26_1.svg', alt='Matriz RACI para dispositivos móviles')
